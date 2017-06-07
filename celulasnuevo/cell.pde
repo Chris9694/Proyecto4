@@ -55,7 +55,7 @@ void otracelula(){
         float minDist = c1.r+c1.r;
         println(minDist);
         
-        if(d < minDist-1){
+        if(d <= minDist){
                c1.vel.x *= -1;
                c1.vel.y *= -1;
        
